@@ -1,0 +1,6 @@
+C:\Users\ASUS\source\LapTrinhWindow\Lab7\Lab7\obj\Debug\Lab7.csproj.AssemblyReference.cache
+C:\Users\ASUS\source\LapTrinhWindow\Lab7\Lab7\obj\Debug\Lab7.QUANLYHOCSINH.resources
+C:\Users\ASUS\source\LapTrinhWindow\Lab7\Lab7\obj\Debug\Lab7.QuanLyLop.resources
+C:\Users\ASUS\source\LapTrinhWindow\Lab7\Lab7\obj\Debug\Lab7.Properties.Resources.resources
+C:\Users\ASUS\source\LapTrinhWindow\Lab7\Lab7\obj\Debug\Lab7.csproj.GenerateResource.cache
+C:\Users\ASUS\source\LapTrinhWindow\Lab7\Lab7\obj\Debug\Lab7.csproj.CoreCompileInputs.cache

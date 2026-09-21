@@ -1,0 +1,2 @@
+user1,deposit,100.0,2024-11-20
+user2,withdraw,50.0,2024-11-21

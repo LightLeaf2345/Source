@@ -1,0 +1,218 @@
+﻿  Admin.cpp
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7): error C2011: 'User': 'class' type redefinition
+  (compiling source file 'Admin.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Admin.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(8,7):
+          while compiling class template 'LinkedList'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(50,18): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(65,9): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Admin.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079: 'Node<User>::data' uses undefined class 'User'
+  (compiling source file 'Admin.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(35,26):
+          see reference to class template instantiation 'Node<User>' being compiled
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(35,24): error C2440: 'initializing': cannot convert from 'int' to 'User &'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(36,27): error C2027: use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(37,20): error C2027: use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(38,20): error C2027: use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(39,20): error C2027: use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(40,20): error C2027: use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(85,14): error C2079: 'newUser' uses undefined class 'User'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(85,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(85,21):
+      The initializer contains too many elements
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(86,15): error C2664: 'void LinkedList<User>::add(T)': cannot convert argument 1 from 'int' to 'T'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(86,15): error C2664:         with
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(86,15): error C2664:         [
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(86,15): error C2664:             T=User
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(86,15): error C2664:         ]
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(86,19):
+      use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(27,10):
+      see declaration of 'LinkedList<User>::add'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Admin.cpp(86,15):
+      while trying to match the argument list '(int)'
+  
+  ATMSystem.cpp
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'ATMSystem.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(8,7):
+          while compiling class template 'LinkedList'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(50,18): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'ATMSystem.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,43): error C3861: 'Admin': identifier not found
+  (compiling source file 'ATMSystem.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,43): error C2065: 'Admin': undeclared identifier
+  (compiling source file 'ATMSystem.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(65,9): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'ATMSystem.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7): error C2011: 'User': 'class' type redefinition
+  (compiling source file 'ATMSystem.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(38,14): error C2079: 'newUser' uses undefined class 'User'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(38,21): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(38,21):
+      The initializer contains too many elements
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(39,15): error C2664: 'void LinkedList<User>::add(T)': cannot convert argument 1 from 'int' to 'T'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(39,15): error C2664:         with
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(39,15): error C2664:         [
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(39,15): error C2664:             T=User
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(39,15): error C2664:         ]
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(39,19):
+      use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(27,10):
+      see declaration of 'LinkedList<User>::add'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(39,15):
+      while trying to match the argument list '(int)'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079: 'Node<T>::data' uses undefined class 'User'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:         with
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:         [
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:             T=User
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:         ]
+  (compiling source file 'ATMSystem.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\ATMSystem.cpp(87,13):
+          see reference to class template instantiation 'Node<T>' being compiled
+          with
+          [
+              T=User
+          ]
+  
+  FileManager.cpp
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7): error C2011: 'User': 'class' type redefinition
+  (compiling source file 'FileManager.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'FileManager.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(8,7):
+          while compiling class template 'LinkedList'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(50,18): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(65,9): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Transaction.h(12,1): error C2059: syntax error: '}'
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Transaction.h(12,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'FileManager.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(60,14): error C2079: 'user' uses undefined class 'User'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(60,18): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(60,18):
+      The initializer contains too many elements
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(61,15): error C2664: 'void LinkedList<User>::add(T)': cannot convert argument 1 from 'int' to 'T'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(61,15): error C2664:         with
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(61,15): error C2664:         [
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(61,15): error C2664:             T=User
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(61,15): error C2664:         ]
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(61,19):
+      use of undefined type 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(27,10):
+      see declaration of 'LinkedList<User>::add'
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(61,15):
+      while trying to match the argument list '(int)'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079: 'Node<T>::data' uses undefined class 'User'
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:         with
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:         [
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:             T=User
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7): error C2079:         ]
+  (compiling source file 'FileManager.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Node.h(7,7):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\FileManager.cpp(73,17):
+          see reference to class template instantiation 'Node<T>' being compiled
+          with
+          [
+              T=User
+          ]
+  
+  Main.cpp
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7): error C2011: 'User': 'class' type redefinition
+  (compiling source file 'Main.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\User.h(3,7):
+      see declaration of 'User'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Main.cpp')
+      C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(45,13):
+      the template instantiation context (the oldest one first) is
+          C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(8,7):
+          while compiling class template 'LinkedList'
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(50,18): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Main.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\LinkedList.h(65,9): warning C4984: 'if constexpr' is a C++17 language extension
+  (compiling source file 'Main.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Transaction.h(12,1): error C2059: syntax error: '}'
+  (compiling source file 'Main.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Transaction.h(12,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'Main.cpp')
+  
+  Transaction.cpp
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Transaction.h(12,1): error C2059: syntax error: '}'
+  (compiling source file 'Transaction.cpp')
+  
+C:\Users\ASUS\source\repos\ATMSystem\ATMSystem\Transaction.h(12,1): error C2143: syntax error: missing ';' before '}'
+  (compiling source file 'Transaction.cpp')
+  
+  User.cpp
+  Generating Code...

@@ -1,0 +1,3 @@
+username4,Jane,0,,
+username1,John,0,,
+username3,JaneDoe,2.92092e+06,USD,lakslask

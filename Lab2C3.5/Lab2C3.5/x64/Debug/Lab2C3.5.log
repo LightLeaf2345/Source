@@ -1,0 +1,11 @@
+﻿  Lab2C3.5.4.cpp
+C:\Users\ASUS\source\repos\Lab2C3.5\Lab2C3.5\Lab2C3.5.4.cpp(182,13): warning C4566: character represented by universal-character-name '\u2229' cannot be represented in the current code page (1252)
+C:\Users\ASUS\source\repos\Lab2C3.5\Lab2C3.5\Lab2C3.5.4.cpp(187,13): warning C4566: character represented by universal-character-name '\u222A' cannot be represented in the current code page (1252)
+Lab2C3.5.2.obj : error LNK2005: main already defined in Lab2C3.5.4.obj
+Lab2C3.5.3.obj : error LNK2005: main already defined in Lab2C3.5.4.obj
+Lab2C3.5.5.obj : error LNK2005: main already defined in Lab2C3.5.4.obj
+Lab2C3.5.6.obj : error LNK2005: main already defined in Lab2C3.5.4.obj
+Lab2C3.5.7.obj : error LNK2005: main already defined in Lab2C3.5.4.obj
+Lab2C3.5.8.obj : error LNK2005: main already defined in Lab2C3.5.4.obj
+Lab2C3.5.obj : error LNK2005: main already defined in Lab2C3.5.4.obj
+C:\Users\ASUS\source\repos\Lab2C3.5\x64\Debug\Lab2C3.5.exe : fatal error LNK1169: one or more multiply defined symbols found
